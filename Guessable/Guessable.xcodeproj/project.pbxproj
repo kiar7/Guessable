@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83150B1E2909834C00F815B5 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83150B1D2909834C00F815B5 /* GameManager.swift */; };
+		831F52C629101A9100E5880A /* GameInstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F52C529101A9100E5880A /* GameInstructionView.swift */; };
+		8330BEEC291128F900F2448E /* Refuso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330BEEB291128F900F2448E /* Refuso.swift */; };
+		833E215B290A87D900B987B8 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833E215A290A87D900B987B8 /* Database.swift */; };
+		8345CD09290824BD007A379E /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CD08290824BD007A379E /* MainMenuView.swift */; };
+		8345CD0B290824F6007A379E /* LogoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CD0A290824F6007A379E /* LogoPage.swift */; };
+		8345CD0D2908254B007A379E /* PlayerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CD0C2908254B007A379E /* PlayerSelectionView.swift */; };
+		8345CD0F29082576007A379E /* AddInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CD0E29082576007A379E /* AddInfoView.swift */; };
+		8345CD112908259F007A379E /* GameLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CD102908259F007A379E /* GameLayoutView.swift */; };
+		8345CD13290825C1007A379E /* NextTurnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CD12290825C1007A379E /* NextTurnView.swift */; };
+		8345CD15290825DD007A379E /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CD14290825DD007A379E /* ResultsView.swift */; };
+		8345CD5129097C0C007A379E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345CD5029097C0C007A379E /* Player.swift */; };
+		83D946F2290ABBF200E1D6A1 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D946F1290ABBF200E1D6A1 /* SwiftUIView.swift */; };
+		D018E56129072D38006EFD64 /* ProjectLombrosoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D018E56029072D38006EFD64 /* ProjectLombrosoApp.swift */; };
+		D018E56329072D38006EFD64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D018E56229072D38006EFD64 /* ContentView.swift */; };
+		D018E56529072D39006EFD64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D018E56429072D39006EFD64 /* Assets.xcassets */; };
+		D018E56829072D39006EFD64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D018E56729072D39006EFD64 /* Preview Assets.xcassets */; };
+		D0A242C7290D291F00B6B9B6 /* NextPlayerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A242C6290D291F00B6B9B6 /* NextPlayerInfoView.swift */; };
+		D0A242C9290D306600B6B9B6 /* ControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A242C8290D306600B6B9B6 /* ControllerView.swift */; };
+		D0A242CB29115ECA00B6B9B6 /* ControllerView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A242CA29115ECA00B6B9B6 /* ControllerView2.swift */; };
+		D0C94D272915D718006C880F /* avatarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C94D262915D718006C880F /* avatarModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83150B1D2909834C00F815B5 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		831F52C529101A9100E5880A /* GameInstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInstructionView.swift; sourceTree = "<group>"; };
+		8330BEEB291128F900F2448E /* Refuso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refuso.swift; sourceTree = "<group>"; };
+		833E215A290A87D900B987B8 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		8345CD08290824BD007A379E /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		8345CD0A290824F6007A379E /* LogoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoPage.swift; sourceTree = "<group>"; };
+		8345CD0C2908254B007A379E /* PlayerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectionView.swift; sourceTree = "<group>"; };
+		8345CD0E29082576007A379E /* AddInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoView.swift; sourceTree = "<group>"; };
+		8345CD102908259F007A379E /* GameLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLayoutView.swift; sourceTree = "<group>"; };
+		8345CD12290825C1007A379E /* NextTurnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTurnView.swift; sourceTree = "<group>"; };
+		8345CD14290825DD007A379E /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		8345CD5029097C0C007A379E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		83D946F1290ABBF200E1D6A1 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		D018E55D29072D38006EFD64 /* Guessable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guessable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D018E56029072D38006EFD64 /* ProjectLombrosoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectLombrosoApp.swift; sourceTree = "<group>"; };
+		D018E56229072D38006EFD64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D018E56429072D39006EFD64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D018E56729072D39006EFD64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0A242C6290D291F00B6B9B6 /* NextPlayerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPlayerInfoView.swift; sourceTree = "<group>"; };
+		D0A242C8290D306600B6B9B6 /* ControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerView.swift; sourceTree = "<group>"; };
+		D0A242CA29115ECA00B6B9B6 /* ControllerView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerView2.swift; sourceTree = "<group>"; };
+		D0C94D262915D718006C880F /* avatarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avatarModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D018E55A29072D38006EFD64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83150B1C2909833E00F815B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				83150B1D2909834C00F815B5 /* GameManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8345CD05290823C4007A379E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8345CD5029097C0C007A379E /* Player.swift */,
+				833E215A290A87D900B987B8 /* Database.swift */,
+				D0C94D262915D718006C880F /* avatarModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8345CD06290823D6007A379E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8345CD0A290824F6007A379E /* LogoPage.swift */,
+				D018E56229072D38006EFD64 /* ContentView.swift */,
+				8345CD08290824BD007A379E /* MainMenuView.swift */,
+				8345CD0C2908254B007A379E /* PlayerSelectionView.swift */,
+				8345CD0E29082576007A379E /* AddInfoView.swift */,
+				D0A242C8290D306600B6B9B6 /* ControllerView.swift */,
+				D0A242C6290D291F00B6B9B6 /* NextPlayerInfoView.swift */,
+				8345CD102908259F007A379E /* GameLayoutView.swift */,
+				D0A242CA29115ECA00B6B9B6 /* ControllerView2.swift */,
+				8345CD12290825C1007A379E /* NextTurnView.swift */,
+				8345CD14290825DD007A379E /* ResultsView.swift */,
+				83D946F1290ABBF200E1D6A1 /* SwiftUIView.swift */,
+				831F52C529101A9100E5880A /* GameInstructionView.swift */,
+				8330BEEB291128F900F2448E /* Refuso.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D018E55429072D38006EFD64 = {
+			isa = PBXGroup;
+			children = (
+				D018E55F29072D38006EFD64 /* ProjectLombroso */,
+				D018E55E29072D38006EFD64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D018E55E29072D38006EFD64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D018E55D29072D38006EFD64 /* Guessable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D018E55F29072D38006EFD64 /* ProjectLombroso */ = {
+			isa = PBXGroup;
+			children = (
+				83150B1C2909833E00F815B5 /* ViewModel */,
+				8345CD05290823C4007A379E /* Models */,
+				D018E56029072D38006EFD64 /* ProjectLombrosoApp.swift */,
+				8345CD06290823D6007A379E /* Views */,
+				D018E56429072D39006EFD64 /* Assets.xcassets */,
+				D018E56629072D39006EFD64 /* Preview Content */,
+			);
+			path = ProjectLombroso;
+			sourceTree = "<group>";
+		};
+		D018E56629072D39006EFD64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D018E56729072D39006EFD64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D018E55C29072D38006EFD64 /* Guessable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D018E56B29072D39006EFD64 /* Build configuration list for PBXNativeTarget "Guessable" */;
+			buildPhases = (
+				D018E55929072D38006EFD64 /* Sources */,
+				D018E55A29072D38006EFD64 /* Frameworks */,
+				D018E55B29072D38006EFD64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guessable;
+			productName = ProjectLombroso;
+			productReference = D018E55D29072D38006EFD64 /* Guessable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D018E55529072D38006EFD64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D018E55C29072D38006EFD64 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D018E55829072D38006EFD64 /* Build configuration list for PBXProject "Guessable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D018E55429072D38006EFD64;
+			productRefGroup = D018E55E29072D38006EFD64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D018E55C29072D38006EFD64 /* Guessable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D018E55B29072D38006EFD64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D018E56829072D39006EFD64 /* Preview Assets.xcassets in Resources */,
+				D018E56529072D39006EFD64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D018E55929072D38006EFD64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D946F2290ABBF200E1D6A1 /* SwiftUIView.swift in Sources */,
+				D0A242CB29115ECA00B6B9B6 /* ControllerView2.swift in Sources */,
+				8345CD13290825C1007A379E /* NextTurnView.swift in Sources */,
+				83150B1E2909834C00F815B5 /* GameManager.swift in Sources */,
+				8345CD15290825DD007A379E /* ResultsView.swift in Sources */,
+				8345CD0F29082576007A379E /* AddInfoView.swift in Sources */,
+				D018E56329072D38006EFD64 /* ContentView.swift in Sources */,
+				D0C94D272915D718006C880F /* avatarModel.swift in Sources */,
+				8345CD112908259F007A379E /* GameLayoutView.swift in Sources */,
+				833E215B290A87D900B987B8 /* Database.swift in Sources */,
+				8345CD0D2908254B007A379E /* PlayerSelectionView.swift in Sources */,
+				D018E56129072D38006EFD64 /* ProjectLombrosoApp.swift in Sources */,
+				8330BEEC291128F900F2448E /* Refuso.swift in Sources */,
+				8345CD09290824BD007A379E /* MainMenuView.swift in Sources */,
+				831F52C629101A9100E5880A /* GameInstructionView.swift in Sources */,
+				8345CD5129097C0C007A379E /* Player.swift in Sources */,
+				D0A242C7290D291F00B6B9B6 /* NextPlayerInfoView.swift in Sources */,
+				8345CD0B290824F6007A379E /* LogoPage.swift in Sources */,
+				D0A242C9290D306600B6B9B6 /* ControllerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D018E56929072D39006EFD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D018E56A29072D39006EFD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D018E56C29072D39006EFD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjectLombroso/Preview Content\"";
+				DEVELOPMENT_TEAM = 5FDLG4RNFN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.academy.jkeraa.ProjectLombroso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D018E56D29072D39006EFD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjectLombroso/Preview Content\"";
+				DEVELOPMENT_TEAM = 5FDLG4RNFN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.academy.jkeraa.ProjectLombroso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D018E55829072D38006EFD64 /* Build configuration list for PBXProject "Guessable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D018E56929072D39006EFD64 /* Debug */,
+				D018E56A29072D39006EFD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D018E56B29072D39006EFD64 /* Build configuration list for PBXNativeTarget "Guessable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D018E56C29072D39006EFD64 /* Debug */,
+				D018E56D29072D39006EFD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D018E55529072D38006EFD64 /* Project object */;
+}
